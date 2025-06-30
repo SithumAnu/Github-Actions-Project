@@ -53,4 +53,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Unit Test Cases
-      run: Maven Test
+      run: mvn test
